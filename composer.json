@@ -1,0 +1,29 @@
+{
+    "name": "cdbeaton/boolean-tick",
+    "description": "An alternative to the Boolean component in Laravel Nova for colourblind users.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cdbeaton\\BooleanTick\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cdbeaton\\BooleanTick\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
